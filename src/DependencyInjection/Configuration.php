@@ -219,6 +219,8 @@ class Configuration implements ConfigurationInterface
                     ->end()
                     ->integerNode('server_failure_limit')
                     ->end()
+                    ->booleanNode('remove_failed_servers')
+                    ->end()
                 ->end();
         }
 
