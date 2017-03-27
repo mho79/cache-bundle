@@ -1,5 +1,5 @@
 parameters:
-    aequasi_cache.abstract.apc.class: Doctrine\Common\Cache\ApcCache
+    aequasi_cache.abstract.apc.class: Doctrine\Common\Cache\ApcuCache
     aequasi_cache.abstract.array.class: Doctrine\Common\Cache\ArrayCache
     aequasi_cache.abstract.file_system.class: Doctrine\Common\Cache\FilesystemCache
     aequasi_cache.abstract.memcache.class: Doctrine\Common\Cache\MemcacheCache
