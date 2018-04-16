@@ -16,7 +16,7 @@
         "email": "aequasi@gmail.com"
     },
     "require": {
-        "php": "~5.3|~7.0",
+        "php": "~5.3|~7.1",
         "symfony/symfony": "~2.2",
         "doctrine/cache": "~1.3"
     },
